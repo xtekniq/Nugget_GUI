@@ -1,5 +1,4 @@
-# CODENAME Nugget
-## Fork / mirror of leminlimez/Nugget (deleted)
+# CODENAME Nugget (Gui Version)
 
 Unlock your device's full potential! Works on all versions iOS 17.0+
 
@@ -14,17 +13,15 @@ Note: I am not responsible if your device bootloops. Please back up your data be
 
 ## Running the Program
 Requirements:
-- pymobiledevice3
+- Python INSTALLED on the Windows Machine
 
-Note: It is highly recommended to use a virtual environment:
+Windows:
 ```
-python -m venv .env # only needed once
-source .env/bin/activate
-pip install -r requirements.txt # only needed once
-python main_app.py
+Put mobilegestalt file in data folder
+Start Nugget.bat
 ```
 
-## Getting the File
+## Getting Mobilegestalt file
 You need to get the mobilegestalt file that is specific to your device. To do that, follow these steps:
 1. Install the `Shortcuts` app from the iOS app store.
 2. Download this shortcut: https://www.icloud.com/shortcuts/d6f0a136ddda4714a80750512911c53b
@@ -35,4 +32,5 @@ You need to get the mobilegestalt file that is specific to your device. To do th
 - **[leminlimez](https://x.com/LeminLimez) for creating this project**
 - [JJTech](https://github.com/JJTech0130) for Sparserestore/[TrollRestore](https://github.com/JJTech0130/TrollRestore)
 - [pymobiledevice3](https://github.com/doronz88/pymobiledevice3)
+- And for me for making the GUI :D
 
